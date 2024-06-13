@@ -1,0 +1,91 @@
+/* Consigna: Crear un sitio web con un formulario y que el formulario se mande a un prestador */
+.bloque{
+    background-color: rgb(122, 195, 244);
+    margin-bottom: 100px;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    left:0;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+.iwpeng {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 500px;
+    cursor: progress;
+}
+
+input, select{
+    width: 38%;
+    height: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+    border-width: 3px 3px 3px 3px;
+    border-color: black;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #006eff;
+}
+
+input[type="submit"]{
+    font-size:1.5rem;
+    background-image: url(../img/sticky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 38%;
+}
+
+input[type="submit"]:hover{
+    scale: 1.1;
+    cursor:pointer;
+}
+
+input[type="checkbox"] {
+    width: 2em;
+    height: 2rem;
+    accent-color: green;
+  }
+  
+input[type="checkbox"]:hover {
+    color: black;
+  }
+  
+.shorttext {
+    font-style: italic;
+    font-size: 1.1rem;
+    padding-left: 80px;
+    padding-right:80px;
+}
+  
+textarea{
+    width: 38%;
+    height: 15rem;
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 5px;
+    resize: none;
+    border-width: 3px 3px 3px 3px;
+    border-color: black;
+}
+
+textarea:focus{
+    border-color: #006eff;
+    border-width: 4px 4px 4px 4px;
+}
